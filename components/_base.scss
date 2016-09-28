@@ -18,7 +18,7 @@ html {
 body {
   font-size: 14px;
   line-height: 1.4;
-  color: #3a3a3a;
+  color: $base-color;
   background-color: #fff;
 }
 
@@ -57,4 +57,21 @@ body {
     width: auto;
     max-width: 480px;
   }
+}
+
+/* =============================
+ * links
+ * =============================*/
+
+a {
+  color: $base-color;
+  text-decoration: underline;
+
+  &.btn {
+    text-decoration: none;
+  }
+}
+
+a:active, a:hover {
+  outline: 0;
 }

@@ -8,6 +8,9 @@
 /* =============================
  * space
  * =============================*/
+/* =============================
+ * colors
+ * =============================*/
 .col-md-1 {
   float: left;
   padding-left: 10px;
@@ -593,6 +596,18 @@ body {
   .container {
     width: auto;
     max-width: 480px; } }
+/* =============================
+ * links
+ * =============================*/
+a {
+  color: #3a3a3a;
+  text-decoration: underline; }
+  a.btn {
+    text-decoration: none; }
+
+a:active, a:hover {
+  outline: 0; }
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -609,5 +624,7 @@ body {
   border-radius: 2px; }
   .btn:hover {
     border: 1px solid rgba(0, 0, 0, 0.8); }
+  .btn.-right {
+    float: right; }
 
 /*# sourceMappingURL=css-mount.css.map */
