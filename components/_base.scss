@@ -108,11 +108,21 @@ img {
   }
 }
 
-
 /* =============================
  * hr
  * =============================*/
 
 hr {
   border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+/* =============================
+ * footer
+ * =============================*/
+
+footer {
+  background-color: $base-color;
+  color: #fff;
+  padding: ($default-space / 2) 0px;
+  border-top: $default-space solid #fff;
 }

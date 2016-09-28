@@ -639,6 +639,15 @@ img {
 hr {
   border: 1px solid rgba(0, 0, 0, 0.35); }
 
+/* =============================
+ * footer
+ * =============================*/
+footer {
+  background-color: #3a3a3a;
+  color: #fff;
+  padding: 5px 0px;
+  border-top: 10px solid #fff; }
+
 .btn {
   display: inline-block;
   padding: 10px 24px;
