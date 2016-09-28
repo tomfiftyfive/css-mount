@@ -575,6 +575,12 @@ section {
   width: 100%;
   overflow: hidden; }
 
+.title {
+  margin: 0px;
+  padding: 10px;
+  float: left;
+  text-transform: uppercase; }
+
 /* =============================
  * row
  * =============================*/
@@ -656,5 +662,24 @@ hr {
     background-color: rgba(255, 255, 255, 0.6); }
   .btn.-alt:hover {
     background-color: rgba(255, 255, 255, 0.8); }
+
+.navigation {
+  float: right; }
+  .navigation ul {
+    margin: 10px 20px; }
+  .navigation ul li {
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block; }
+  .navigation a {
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .navigation a:hover {
+      padding: 10px 30px 9px 30px;
+      border-bottom: 1px solid; }
 
 /*# sourceMappingURL=css-mount.css.map */

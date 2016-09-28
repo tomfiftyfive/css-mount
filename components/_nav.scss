@@ -1,0 +1,29 @@
+
+.navigation {
+  float: right;
+
+
+  & ul {
+    margin: ($default-space * 1) ($default-space * 2);
+  }
+
+  & ul li {
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+  }
+
+  & a {
+    padding: ($default-space * 1) ($default-space * 3);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      padding: (($default-space * 1) - 0) ($default-space * 3) (($default-space * 1) - 1) ($default-space * 3);
+      border-bottom: 1px solid;
+    }
+  }
+}
