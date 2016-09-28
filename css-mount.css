@@ -565,10 +565,15 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
+  margin: 0;
   font-size: 14px;
   line-height: 1.4;
   color: #3a3a3a;
   background-color: #fff; }
+
+section {
+  width: 100%;
+  overflow: hidden; }
 
 /* =============================
  * row
@@ -615,6 +620,13 @@ a:active, a:hover {
 img {
   border: 0; }
 
+.filled-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .filled-bg.-attch-fixed {
+    background-attachment: fixed; }
+
 /* =============================
  * hr
  * =============================*/
@@ -623,7 +635,7 @@ hr {
 
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 10px 24px;
   margin-bottom: 0;
   line-height: 1.5;
   text-align: center;
@@ -639,5 +651,10 @@ hr {
     border: 1px solid rgba(0, 0, 0, 0.8); }
   .btn.-right {
     float: right; }
+  .btn.-alt {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.6); }
+  .btn.-alt:hover {
+    background-color: rgba(255, 255, 255, 0.8); }
 
 /*# sourceMappingURL=css-mount.css.map */

@@ -16,10 +16,16 @@ html {
 }
 
 body {
+  margin: 0;
   font-size: 14px;
   line-height: 1.4;
   color: $base-color;
   background-color: #fff;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
 }
 
 /* =============================
@@ -84,6 +90,17 @@ a:active, a:hover {
 img {
   border: 0;
 }
+
+.filled-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &.-attch-fixed {
+    background-attachment: fixed;
+  }
+}
+
 
 /* =============================
  * hr
