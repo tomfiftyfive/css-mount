@@ -575,6 +575,7 @@ body {
  * =============================*/
 .row {
   width: 100%;
+  overflow: hidden;
   padding-left: 10px;
   padding-right: 10px; }
 
@@ -607,6 +608,18 @@ a {
 
 a:active, a:hover {
   outline: 0; }
+
+/* =============================
+ * image
+ * =============================*/
+img {
+  border: 0; }
+
+/* =============================
+ * hr
+ * =============================*/
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.35); }
 
 .btn {
   display: inline-block;

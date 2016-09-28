@@ -28,6 +28,7 @@ body {
 
 .row {
   width: 100%;
+  overflow: hidden;
   padding-left: $default-space;
   padding-right: $default-space;
 }
@@ -74,4 +75,20 @@ a {
 
 a:active, a:hover {
   outline: 0;
+}
+
+/* =============================
+ * image
+ * =============================*/
+
+img {
+  border: 0;
+}
+
+/* =============================
+ * hr
+ * =============================*/
+
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.35);
 }
