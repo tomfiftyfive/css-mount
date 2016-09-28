@@ -1,0 +1,48 @@
+
+@mixin create-grid($breakpoint) {
+  @for $i from 1 through $grid_columns {
+    .col-#{$breakpoint}-#{$i} {
+      //@if $i != "12" {
+      //  float: left;
+      //}
+      float: left;
+      width: percentage(($i / $grid_columns));
+    }
+  }
+
+  @for $i from 0 through ($grid_columns - 1) {
+    .col-#{$breakpoint}-offset-left-#{$i} {
+      margin-left: percentage(($i / $grid_columns));
+    }
+  }
+
+  @for $i from 0 through ($grid_columns - 1) {
+    .col-#{$breakpoint}-offset-right-#{$i} {
+      margin-right: percentage(($i / $grid_columns));
+    }
+  }
+}
+
+@include create-grid('md');
+
+@media #{$breakpoint_sm} {
+  @include create-grid('sm');
+}
+
+@media #{$breakpoint_xs} {
+  @for $i from 1 through $grid_columns {
+    .col-md-#{$i} {
+      width: 100%;
+      //float: none;
+    }
+
+    .col-md-offset-left-#{$i} {
+      margin-left: 0;
+    }
+    .col-md-offset-right-#{$i} {
+      margin-right: 0;
+    }
+  }
+
+  @include create-grid('xs');
+}

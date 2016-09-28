@@ -1,0 +1,60 @@
+
+/* =============================
+ * base
+ * =============================*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3a3a3a;
+  background-color: #fff;
+}
+
+/* =============================
+ * row
+ * =============================*/
+
+.row {
+  width: 100%;
+  padding-left: $default-space;
+  padding-right: $default-space;
+}
+
+/* =============================
+ * container
+ * =============================*/
+
+.container {
+  width: 940px;
+
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $default-space;
+  padding-right: $default-space;
+}
+
+@media #{$breakpoint_sm} {
+  .container {
+    width: 600px;
+  }
+}
+
+@media #{$breakpoint_xs} {
+  .container {
+    width: auto;
+    max-width: 480px;
+  }
+}

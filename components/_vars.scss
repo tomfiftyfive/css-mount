@@ -1,0 +1,22 @@
+
+/* =============================
+ * grid
+ * =============================*/
+
+$grid_columns: 12;
+$grid_item_width: percentage(1 / $grid_columns);
+
+/* =============================
+ * breakpoints
+ * =============================*/
+
+$breakpoint_sm: "all and (max-width: 1024px)";
+$breakpoint_xs: "all and (max-width: 640px)";
+
+/* =============================
+ * space
+ * =============================*/
+
+$default-space: 10px;
+
+
