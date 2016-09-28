@@ -6,6 +6,8 @@
       //  float: left;
       //}
       float: left;
+      padding-left: $default-space;
+      padding-right: $default-space;
       width: percentage(($i / $grid_columns));
     }
   }

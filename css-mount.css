@@ -10,50 +10,74 @@
  * =============================*/
 .col-md-1 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 8.33333%; }
 
 .col-md-2 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 16.66667%; }
 
 .col-md-3 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 25%; }
 
 .col-md-4 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 33.33333%; }
 
 .col-md-5 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 41.66667%; }
 
 .col-md-6 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 50%; }
 
 .col-md-7 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 58.33333%; }
 
 .col-md-8 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 66.66667%; }
 
 .col-md-9 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 75%; }
 
 .col-md-10 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 83.33333%; }
 
 .col-md-11 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 91.66667%; }
 
 .col-md-12 {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%; }
 
 .col-md-offset-left-0 {
@@ -131,50 +155,74 @@
 @media all and (max-width: 1024px) {
   .col-sm-1 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 8.33333%; }
 
   .col-sm-2 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 16.66667%; }
 
   .col-sm-3 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 25%; }
 
   .col-sm-4 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 33.33333%; }
 
   .col-sm-5 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 41.66667%; }
 
   .col-sm-6 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 50%; }
 
   .col-sm-7 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 58.33333%; }
 
   .col-sm-8 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 66.66667%; }
 
   .col-sm-9 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 75%; }
 
   .col-sm-10 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 83.33333%; }
 
   .col-sm-11 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 91.66667%; }
 
   .col-sm-12 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%; }
 
   .col-sm-offset-left-0 {
@@ -359,50 +407,74 @@
 
   .col-xs-1 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 8.33333%; }
 
   .col-xs-2 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 16.66667%; }
 
   .col-xs-3 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 25%; }
 
   .col-xs-4 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 33.33333%; }
 
   .col-xs-5 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 41.66667%; }
 
   .col-xs-6 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 50%; }
 
   .col-xs-7 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 58.33333%; }
 
   .col-xs-8 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 66.66667%; }
 
   .col-xs-9 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 75%; }
 
   .col-xs-10 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 83.33333%; }
 
   .col-xs-11 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 91.66667%; }
 
   .col-xs-12 {
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%; }
 
   .col-xs-offset-left-0 {
