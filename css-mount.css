@@ -9,6 +9,9 @@
  * space
  * =============================*/
 /* =============================
+ * font
+ * =============================*/
+/* =============================
  * colors
  * =============================*/
 .col-md-1 {
@@ -567,7 +570,7 @@ html {
 body {
   margin: 0;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.45;
   color: #3a3a3a;
   background-color: #fff; }
 
@@ -650,9 +653,9 @@ footer {
 
 .btn {
   display: inline-block;
-  padding: 10px 24px;
+  padding: 10px 25px;
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: 1.45;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
@@ -660,6 +663,7 @@ footer {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 2px; }
   .btn:hover {
@@ -671,6 +675,37 @@ footer {
     background-color: rgba(255, 255, 255, 0.6); }
   .btn.-alt:hover {
     background-color: rgba(255, 255, 255, 0.8); }
+
+.form-group {
+  margin-bottom: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px; }
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  max-width: 100%;
+  margin-bottom: 5px; }
+
+.textfield {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #3a3a3a;
+  height: 40px;
+  line-height: 1.45;
+  padding: 10px 15px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-radius: 2px; }
+
+button, input {
+  overflow: visible; }
+
+input, textarea, keygen, select, button {
+  font-family: sans-serif;
+  font-size: 14px; }
 
 .navigation {
   float: right; }
@@ -701,7 +736,7 @@ footer {
 
 .table tr, .table td, .table th {
   padding: 10px;
-  line-height: 1.5;
+  line-height: 1.45;
   vertical-align: top;
   border-top: 1px solid #ddd; }
 

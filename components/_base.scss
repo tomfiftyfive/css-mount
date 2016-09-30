@@ -10,15 +10,15 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: $font-family-base;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
   color: $color-base;
   background-color: #fff;
 }

@@ -1,9 +1,9 @@
 
 .btn {
   display: inline-block;
-  padding: 10px 24px;
+  padding: $default-space ($default-space * 2.5);
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: $line-height-base;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
@@ -11,6 +11,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 2px;
 

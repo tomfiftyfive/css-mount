@@ -10,7 +10,7 @@
 
 .table tr, .table td, .table th {
   padding: $default-space;
-  line-height: 1.5;
+  line-height: $line-height-base;
   vertical-align: top;
   border-top: 1px solid $color-smooth-grey;
 }
