@@ -702,6 +702,8 @@ label {
 
 button, input {
   overflow: visible; }
+  button:focus, input:focus {
+    outline: 0; }
 
 input, textarea, keygen, select, button {
   font-family: sans-serif;

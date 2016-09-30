@@ -28,6 +28,10 @@ label {
 
 button, input {
   overflow: visible;
+
+  &:focus {
+    outline: 0;
+  }
 }
 
 input, textarea, keygen, select, button {

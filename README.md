@@ -1,7 +1,7 @@
 # css-mount
-Base css library for initial frontend project setup.
+Base css library for initial responsive frontend project setup.
 
-SASS files included.
+SASS and dummy files are included.
 
 ## Contents
 
@@ -11,3 +11,5 @@ SASS files included.
 - basic image
 - buttons
 - navigation and footer
+- tables
+- forms
