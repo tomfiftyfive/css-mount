@@ -1,0 +1,30 @@
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: $default-space;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: 0;
+}
+
+.table tr, .table td, .table th {
+  padding: $default-space;
+  line-height: 1.5;
+  vertical-align: top;
+  border-top: 1px solid $color-smooth-grey;
+}
+
+.table > tbody > tr:first-child td, .table tr:first-child {
+  border-top: 0;
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-top: 0;
+  border-bottom: 2px solid $color-smooth-grey;
+}
+
+th {
+  text-align: left;
+}

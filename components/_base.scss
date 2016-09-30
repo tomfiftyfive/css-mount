@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-size: 14px;
   line-height: 1.4;
-  color: $base-color;
+  color: $color-base;
   background-color: #fff;
 }
 
@@ -78,7 +78,7 @@ section {
  * =============================*/
 
 a {
-  color: $base-color;
+  color: $color-base;
   text-decoration: underline;
 
   &.btn {
@@ -121,7 +121,7 @@ hr {
  * =============================*/
 
 footer {
-  background-color: $base-color;
+  background-color: $color-base;
   color: #fff;
   padding: ($default-space / 2) 0px;
   border-top: $default-space solid #fff;
