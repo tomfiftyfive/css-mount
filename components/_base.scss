@@ -35,6 +35,10 @@ section {
   text-transform: uppercase;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* =============================
  * row
  * =============================*/
@@ -71,6 +75,17 @@ section {
     width: auto;
     max-width: 480px;
   }
+}
+
+/* =============================
+ * alignment
+ * =============================*/
+
+// Add 100% height to the parent element and .row or .container are centered vertically
+.container.-vertical-center, .row.-vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* =============================

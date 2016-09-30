@@ -584,6 +584,9 @@ section {
   float: left;
   text-transform: uppercase; }
 
+.text-center {
+  text-align: center; }
+
 /* =============================
  * row
  * =============================*/
@@ -611,6 +614,14 @@ section {
   .container {
     width: auto;
     max-width: 480px; } }
+/* =============================
+ * alignment
+ * =============================*/
+.container.-vertical-center, .row.-vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
 /* =============================
  * links
  * =============================*/
