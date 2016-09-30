@@ -649,7 +649,7 @@ footer {
   background-color: #3a3a3a;
   color: #fff;
   padding: 5px 0px;
-  border-top: 10px solid #fff; }
+  border-top: 2px solid #ddd; }
 
 .btn {
   display: inline-block;
@@ -723,8 +723,8 @@ input, textarea, keygen, select, button {
     text-decoration: none;
     text-transform: uppercase; }
     .navigation a:hover {
-      padding: 10px 30px 9px 30px;
-      border-bottom: 1px solid; }
+      padding: 10px 30px 8px 30px;
+      border-bottom: 2px solid #ddd; }
 
 .table {
   width: 100%;

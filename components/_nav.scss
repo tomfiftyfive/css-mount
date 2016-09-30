@@ -21,8 +21,8 @@
     text-transform: uppercase;
 
     &:hover {
-      padding: (($default-space * 1) - 0) ($default-space * 3) (($default-space * 1) - 1) ($default-space * 3);
-      border-bottom: 1px solid;
+      padding: (($default-space * 1) - 0) ($default-space * 3) (($default-space * 1) - 2) ($default-space * 3);
+      border-bottom: 2px solid $color-smooth-grey;
     }
   }
 }
