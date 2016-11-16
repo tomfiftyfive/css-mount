@@ -20,6 +20,7 @@ Simple grid system with offset or alignment classes.
 - main tags
 - responsive grid
 - basic image
+- thumbnails
 - buttons
 - navigation and footer
 - tables
