@@ -664,10 +664,9 @@ hr {
  * footer
  * =============================*/
 footer {
-  background-color: #3a3a3a;
   color: #fff;
   padding: 5px 0px;
-  border-top: 2px solid #ddd; }
+  background-color: #3a3a3a; }
 
 .btn {
   display: inline-block;
