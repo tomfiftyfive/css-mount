@@ -6,6 +6,10 @@ SASS and dummy files are included.
 
 LICENSE: MIT <https://github.com/TheW1zzard/css-mount/blob/master/LICENSE>
 
+![screen1](./screenshots/screen1.png)
+
+![screen2](./screenshots/screen2.png)
+
 ## CONTENTS
 
 - variables
