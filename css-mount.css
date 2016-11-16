@@ -615,6 +615,13 @@ section {
     width: auto;
     max-width: 480px; } }
 /* =============================
+ * lists
+ * =============================*/
+ul {
+  margin: 10px 0;
+  padding: 0 0 0 25px; }
+
+/* =============================
  * alignment
  * =============================*/
 .container.-vertical-center, .row.-vertical-center {
