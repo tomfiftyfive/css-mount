@@ -704,7 +704,7 @@ label {
   max-width: 100%;
   margin-bottom: 5px; }
 
-.textfield {
+.textfield, .selectfield {
   display: block;
   width: 100%;
   font-size: 14px;
@@ -716,6 +716,15 @@ label {
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 2px; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  font-size: 1em;
+  width: 100%; }
 
 button, input {
   overflow: visible; }

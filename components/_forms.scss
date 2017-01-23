@@ -12,7 +12,7 @@ label {
   margin-bottom: $default-space / 2;
 }
 
-.textfield {
+.textfield, .selectfield {
   display: block;
   width: 100%;
   font-size: $font-size-base;
@@ -24,6 +24,16 @@ label {
   background-image: none;
   border: 1px solid $color-smooth-grey;
   border-radius: 2px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border:none;
+  border-radius: 0;
+  font-size: 1em;
+  width: 100%
 }
 
 button, input {
