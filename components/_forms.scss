@@ -20,7 +20,7 @@ label {
   height: $default-element-weight * 4;
   line-height: $line-height-base;
   padding: $default-space ($default-space * 1.5);
-  background-color: #fff;
+  background-color: $color-sub;
   background-image: none;
   border: 1px solid $color-smooth-grey;
   border-radius: 2px;
