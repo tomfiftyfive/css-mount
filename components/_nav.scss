@@ -9,9 +9,39 @@
   & ul li {
     margin: 0;
     padding: 0;
+    position: relative;
     display: -moz-inline-box;
     -moz-box-orient: vertical;
     display: inline-block;
+
+    & > ul {
+      display: none;
+      margin: 0;
+      padding: 0;
+      background-color: $color-sub;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+      li {
+        padding: 0 $default-space;
+        width: 100%;
+        text-align: center;
+
+        &:first-child {
+          padding: $default-space $default-space 0 $default-space;
+        }
+        &:last-child {
+          padding: 0 $default-space $default-space $default-space;
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
   }
 
   & a {

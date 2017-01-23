@@ -742,9 +742,28 @@ input, textarea, keygen, select, button {
   .navigation ul li {
     margin: 0;
     padding: 0;
+    position: relative;
     display: -moz-inline-box;
     -moz-box-orient: vertical;
     display: inline-block; }
+    .navigation ul li > ul {
+      display: none;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+      .navigation ul li > ul li {
+        padding: 0 10px;
+        width: 100%;
+        text-align: center; }
+        .navigation ul li > ul li:first-child {
+          padding: 10px 10px 0 10px; }
+        .navigation ul li > ul li:last-child {
+          padding: 0 10px 10px 10px; }
+    .navigation ul li:hover ul {
+      display: block; }
   .navigation a {
     padding: 10px 30px;
     display: block;
