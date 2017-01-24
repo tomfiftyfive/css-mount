@@ -738,7 +738,8 @@ input, textarea, keygen, select, button {
 .navigation {
   float: right; }
   .navigation ul {
-    margin: 10px 20px; }
+    margin: 10px 20px;
+    padding: 0; }
   .navigation ul li {
     margin: 0;
     padding: 0;
@@ -773,6 +774,15 @@ input, textarea, keygen, select, button {
       padding: 10px 30px 8px 30px;
       border-bottom: 2px solid #ddd; }
 
+@media all and (max-width: 640px) {
+  .navigation {
+    float: none; }
+    .navigation ul li {
+      width: 100%;
+      text-align: center; }
+      .navigation ul li > ul {
+        display: block;
+        position: relative; } }
 .table {
   width: 100%;
   max-width: 100%;

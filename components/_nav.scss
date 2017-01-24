@@ -4,6 +4,7 @@
 
   & ul {
     margin: ($default-space * 1) ($default-space * 2);
+    padding: 0;
   }
 
   & ul li {
@@ -54,5 +55,22 @@
       padding: (($default-space * 1) - 0) ($default-space * 3) (($default-space * 1) - 2) ($default-space * 3);
       border-bottom: 2px solid $color-smooth-grey;
     }
+  }
+}
+
+@media #{$breakpoint_xs} {
+  .navigation {
+    float: none;
+
+    & ul li {
+      width: 100%;
+      text-align: center;
+
+      & > ul {
+        display: block;
+        position: relative;
+      }
+    }
+
   }
 }
